@@ -7,6 +7,8 @@
     <title>Adri Roos</title>  
     <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.sass">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <!-- For Font-awesome icon -->
@@ -25,14 +27,22 @@
       </nav>
       
       
-      <!-- Second Section-->
-      
-      <section id="welcome-section">
+     <!--Welcome Section-->
+
+    <section id="welcome-section">
       <h1>Hello! I'm Adri</h1>
-      <p><i>a front-end web developer</i></p>
-      </section>
-      
-      <section id="projects" class="project-section">
+      <h2>I'm a
+      <span
+        class="txt-rotate"
+        data-period="2000"
+        data-rotate='[ "nerdy.", "simple.", "sociable.", "hardworking.", "fun!" ]'></span>
+      </h2>
+    </section>
+
+       <!--Projects Section-->
+
+       <section id="projects" class="project-section">
+
         <h2 class="projects-section-header">My Projects</h2>
       
       <div class="projects-grid">
@@ -104,7 +114,7 @@
         </p>
         </a>
         
-        <a
+        <!--<a
         href="https://codepen.io/MadanSinha/full/bGwxqed"
         target="_blank"
         class="project project-tile"
@@ -136,12 +146,12 @@
           3D Cube
           
         </p>
-        </a>
+        </a>-->
       </div>  
       </section>
       
       
-      <!-- Third Section-->
+      <!-- Contact Section-->
       
       
       <section id="contact" class="contact-section">
@@ -174,7 +184,7 @@
         >
         <a
         id="profile-link"
-        href="https://github.com/lazy4gyan"
+        href="https://github.com/adrimerican"
         target="_blank"
         class="btn contact-details"
         ><i class="fab fa-github"></i></a
@@ -190,8 +200,6 @@
         >
       </div>
       </section>
-      
-      <!-- END CONTACT SECTION -->
         
         <!-- START FOOTER SECTION -->
       
@@ -203,8 +211,9 @@
         </a>
       </p>
       </footer>
+      <script src="index.js"></script>
       
-      <!-- END FOOTER SECTION -->
+     
   
   
 </body>

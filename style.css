@@ -137,7 +137,18 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 70vh;
-  background: linear-gradient(90deg, #fc466b 0%, #647ae9 100%);
+  background: linear-gradient(90deg, #05668d 0%, #02c39a 100%);
+}
+
+#welcome-section h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+#welcome-section h1 { font-size: 3.5em; }
+#welcome-section h2 {
+  color: rgb(90, 88, 88);
+  font-size: 2em;
+  font-weight: 500;
 }
 
 /* Section 2*/
@@ -145,7 +156,7 @@ a:hover {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: #eceff1;
+  background: #0b93ee;
 }
 .projects-section-header {
   max-width: 640px;
